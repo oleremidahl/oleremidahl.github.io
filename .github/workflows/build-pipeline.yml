@@ -53,5 +53,10 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
+      - name: Lightwork
+        run: echo "$FIRST $SCND"
+        env:
+          FIRST: Hell yeah!
+          SCND: Lightwork
 
       # Step 2: Add deploy to Github pages here! Hot tip - The solution is in the Readme
