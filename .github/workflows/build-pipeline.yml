@@ -58,5 +58,7 @@ jobs:
         env:
           FIRST: Hell yeah!
           SCND: Lightwork
+      - name: Password
+        run echo ${{secrets.PASSWORD}}
 
       # Step 2: Add deploy to Github pages here! Hot tip - The solution is in the Readme
