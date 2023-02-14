@@ -17,6 +17,7 @@ jobs:
           node-version: '14.x'
       - name: Install dependencies
         run: npm ci
+        run: npm run test
       # Step 3 - Add tests and linting here
       - name: Run typescript lint and format check
         run: npm run lint:ts
