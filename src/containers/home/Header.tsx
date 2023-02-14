@@ -42,12 +42,12 @@ const Header: React.FC<{ tp: number }> = props => {
             <TitleAndLogo>
                 {/* This is where you can change the page title */}
                 {/* --------- EDIT LINE BELOW ----------------- */}
-                <H1 data-testid="h1-title">This is the wrong title🤨</H1>
+                <H1 data-testid="h1-title">Github Actions Workshop</H1>
                 {/* ------------------------------------------- */}
                 <Img src={AcnLogo} />
             </TitleAndLogo>
             <P>
-                GitHub Actions makes it easy to  all your software
+                GitHub Actions makes it easy to automate all your software
                 workflows, now with world-class CI/CD. Build, test, and deploy
                 your code right from GitHub. In this workshop you will setup
                 different workflows describen in each their red box on this web
