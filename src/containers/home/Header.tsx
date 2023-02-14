@@ -47,7 +47,7 @@ const Header: React.FC<{ tp: number }> = props => {
                 <Img src={AcnLogo} />
             </TitleAndLogo>
             <P>
-                GitHub Actions makes it easy to automate all your software
+                GitHub Actions makes it easy to  all your software
                 workflows, now with world-class CI/CD. Build, test, and deploy
                 your code right from GitHub. In this workshop you will setup
                 different workflows describen in each their red box on this web
